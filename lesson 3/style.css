@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+.wrapper{
+    overflow: auto;
+    width: 1400px;
+    height: 800px;
+    border: 2px solid #000000;
+    border-radius: 20px 0px 0px 20px; 
+    
+}
+.main-block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(114, 100, 23);
+    border-radius: 15px;
+    color: rgb(238, 238, 238);
+    margin: 10px;
+    box-shadow: inset 2px 1px 10px 2px #000000;
+}
+.main__h {
+padding: 10px;
+}
+.main__txt {
+padding: 10px;
+}
