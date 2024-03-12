@@ -1,0 +1,62 @@
+.header {
+    background: url("../img/decor/bg-header.png") 50% 100% / cover no-repeat;
+}
+
+.header-top {
+    padding-top: 19px;
+}
+
+
+.header__top-inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.header__top-img img {
+    display: block;
+    max-width: 174px;
+    z-index: 12;
+
+}
+
+.header__nav {}
+
+.header__nav-ul {
+    display: flex;
+    gap: 4vh 40px;
+
+}
+
+.header__nav-list {}
+
+.header__nav-list:last-child {}
+
+.header__top-link {
+    display: block;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+
+}
+
+.header__top-link:hover::before {
+    opacity: 1;
+}
+
+.header__top-link::before {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    border-radius: 100%;
+    top: -8px;
+    left: -13px;
+    width: 34px;
+    height: 34px;
+    background: var(--accent-color);
+    z-index: -1;
+    transition: var(--transition);
+
+}

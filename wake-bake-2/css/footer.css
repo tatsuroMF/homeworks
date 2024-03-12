@@ -1,0 +1,147 @@
+/*=======================================================*/
+/*======================FOOTER=================================*/
+/*=======================================================*/
+
+.footer {
+    margin-top: 300px;
+    background: #AB8261;
+    min-height: 253px;
+    padding: 60px 0 60px;
+    color: var(--general-bg);
+}
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+
+}
+
+/*-----*/
+.footer-col:first-child {
+    margin-top: -30px;
+    padding-right: 10px;
+}
+
+.footer__logo {
+    display: block;
+    max-width: 241px;
+}
+
+/*-----*/
+.footer-p {}
+
+.footer-socials {
+    margin-top: 20px;
+}
+
+.footer__socials-list {
+    display: flex;
+
+}
+
+.footer__social-item path {
+    transition: all .3s;
+}
+
+.footer__social-item:hover path {
+    fill: var(--accent-color);
+}
+
+/*-----*/
+.footer__col-link {
+    display: block;
+    position: relative;
+    z-index: 5;
+}
+
+.footer__col-link:hover::before {
+
+    opacity: 1;
+}
+
+.footer__col-link::before {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    border-radius: 100%;
+    top: -11px;
+    left: -15px;
+    width: 34px;
+    height: 34px;
+    background: var(--accent-color);
+    z-index: -1;
+    transition: var(--transition);
+
+}
+
+/*-----*/
+.footer-social {
+    margin-right: 17px;
+}
+
+.footer-social:last-child {
+    margin-right: 0;
+}
+
+.footer__col-list {}
+
+.footer__col-item {
+    margin-bottom: 20px;
+}
+
+.footer__col-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.footer__wt span {
+    display: block;
+    padding-left: 5px;
+
+
+}
+
+.footer__wt-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+    width: 100%;
+
+}
+
+.footer__wt-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer__wt-item svg {
+
+    min-width: 24px;
+    min-height: 24px;
+
+}
+
+.footer__wt-item span {}
+
+.footer__col-tel {
+
+    text-align: center;
+}
+
+.footer-tel {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: var(--transition);
+
+}
+
+.footer-tel:hover {
+    color: var(--accent-color);
+}
+
+.copy {
+    margin-top: 47px;
+}
