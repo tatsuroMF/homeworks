@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <title>Wake & Bake</title>
 </head>
 
-<body class="body  ">
+<body class="body">
     <div class="wrapper">
         <header class="header">
             <div class="header-top">
                 <div class="container">
                     <div class="header__top-inner">
-                        <a href="#" class="header__top-img">
+                        <a href="/" class="header__top-img">
                             <img src="./img/icons/logos/logo-dark.svg" alt="">
                         </a>
                         <nav class="header__nav">
                             <ul class="header__nav-ul">
                                 <li class="header__nav-list">
-                                    <a class="header__top-link" href="#">Программа обучения</a>
+                                    <a class="header__top-link" href="#program">Программа обучения</a>
                                 </li>
                                 <li class="header__nav-list">
-                                    <a class="header__top-link" href="#">Галерея</a>
+                                    <a class="header__top-link" href="#gallery">Галерея</a>
                                 </li>
                                 <li class="header__nav-list">
-                                    <a class="header__top-link" href="#">Отзывы</a>
+                                    <a class="header__top-link" href="#reviews">Отзывы</a>
                                 </li>
                                 <li class="header__nav-list">
-                                    <a class="header__top-link" href="#">Контакты</a>
+                                    <a class="header__top-link" href="#contact">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -59,20 +58,20 @@
                                 <div class="hero__img-play">
                                     <a data-fslightbox="video" href="https://youtu.be/ZMPa-77mib4?feature=shared"
                                         class="hero__img-button">
-                                        <img src="img/icons/play.svg">
+                                        <img src="img/icons/play.svg" alt="">
                                     </a>
                                     <span> Посмотри, как готовятся наши торты</span>
 
                                 </div>
                             </div>
-                            <a href="#" class="hero__button button">Записаться на курс</a>
+                            <a href="#contact" class="hero__button button">Записаться на курс</a>
                         </div>
                         <div class="hero__img">
                             <img src="img/content/girl.png " class="hero__main-img" alt="Наш сотрудник">
                             <div class="hero__img-play">
                                 <a data-fslightbox href="https://youtu.be/ZMPa-77mib4?feature=shared"
                                     class="hero__img-button">
-                                    <img src="img/icons/play.svg">
+                                    <img src="img/icons/play.svg" alt="">
                                 </a>
                                 <span> Посмотри, как готовятся наши торты</span>
 
@@ -91,7 +90,7 @@
                             <div class="about-bage">
                                 <div class="about__img-bage">
                                     <a class="about__img-button" href="#">
-                                        <img src="img/icons/gift.svg">
+                                        <img src="img/icons/gift.svg" alt="">
                                     </a>
                                     <span> Нажми на подарок, чтобы получить наш фирменный рецепт</span>
                                 </div>
@@ -142,7 +141,7 @@
                     </div>
                 </div>
             </section>
-            <section class="main__program program">
+            <section class="main__program program" id="program">
                 <div class="container">
                     <h3 class="program-title heading">Программа обучения</h3>
                     <div class="program-top">
@@ -171,7 +170,7 @@
                     <div class="tab-content tab-content--show" id="tab1">
                         <ul class="accordion-list">
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">Начало кондитерского пути и
                                         создание
                                         первого торта</h3>
@@ -186,7 +185,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -237,10 +236,8 @@
                                 </div>
 
                             </li>
-                        </ul>
-                        <ul class="accordion-list">
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Бисквиты</h3>
                                     <div class="accordion__list-control-item">
@@ -254,7 +251,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -298,14 +295,13 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </li>
                         </ul>
                     </div>
                     <div class="tab-content" id="tab2">
                         <ul class="accordion-list">
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Медовик и капкейки
                                     </h3>
@@ -320,7 +316,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -365,10 +361,9 @@
                                 </div>
 
                             </li>
-                        </ul>
-                        <ul class="accordion-list">
+
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Песочное тесто и чизкейк
                                     </h3>
@@ -383,7 +378,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -444,7 +439,7 @@
                     <div class="tab-content" id="tab3">
                         <ul class="accordion-list">
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Дрожжевое тесто
                                     </h3>
@@ -459,7 +454,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -498,10 +493,8 @@
                                 </div>
 
                             </li>
-                        </ul>
-                        <ul class="accordion-list">
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Работа с кремами
                                     </h3>
@@ -516,7 +509,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -565,7 +558,7 @@
                     <div class="tab-content " id="tab4">
                         <ul class="accordion-list">
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Mille-feuille, или Наполеон
                                     </h3>
@@ -580,7 +573,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -619,10 +612,9 @@
                                 </div>
 
                             </li>
-                        </ul>
-                        <ul class="accordion-list">
+
                             <li class="accordion-list__item">
-                                <button class="accordion-list__control " type="button">
+                             <a class="accordion-list__control " href="#">
                                     <h3 class="accordion__list-control-title ">
                                         Завершение курса
                                     </h3>
@@ -637,7 +629,7 @@
                                                 fill="#FFA55C" />
                                         </svg>
                                     </div>
-                                </button>
+                                </a>
                                 <div class="accordion-list__content">
                                     <div class="accordion__content">
                                         <div class="accordion__content-col">
@@ -687,23 +679,23 @@
                         <div class="program__bottom-content">
                             <div class="program__bottom-list">
                                 <div class="program__bottom-item">
-                                    <h7 class="program__bottom-title">
+                                    <h2 class="program__bottom-title">
                                         Успей получить <br> скидку
-                                    </h7>
+                                    </h2>
                                     <p class="program__bottom-el">-30%</p>
                                     <p class="program__bottom-txt">до 1 июня</p>
                                 </div>
                                 <div class="program__bottom-value">
-                                    <h8 class="program__bottom-heading">
+                                    <h2 class="program__bottom-heading">
                                         Стоимость курса без скидки
-                                    </h8>
+                                    </h2>
                                     <p class="program__bottom-price program__bottom-price--low">32 000 руб.</p>
 
                                 </div>
                                 <div class="program__bottom-value">
-                                    <h8 class="program__bottom-heading">
+                                    <h2 class="program__bottom-heading">
                                         Стоимость курса со скидкой
-                                    </h8>
+                                    </h2>
                                     <p class="program__bottom-price">22 400 руб.</p>
 
                                 </div>
@@ -718,7 +710,7 @@
                     </div>
                 </div>
             </section>
-            <section class="main__gallery gallery">
+            <section class="main__gallery gallery" id="gallery">
                 <div class="container">
                     <div class="gallery-inner">
                         <div class="gallery__img">
@@ -729,10 +721,375 @@
                                 <div class="gallery-tittle heading">Фотогалерея</div>
                                 <p class="gallery-txt">
                                     Для комфортного обучения сделаны просторные аудитории,
-                                    где предоставляется всё необходимое оборудование. Здесь наши ученики создают кулинарные
+                                    где предоставляется всё необходимое оборудование. Здесь наши ученики создают
+                                    кулинарные
                                     шедевры под присмотром опытных наставников
                                 </p>
+
                             </div>
+                            <div class="gallery-nav">
+                                <button class="gallery__nav-prev" type="button">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.992 1.00777L2.016 6.98377L7.992 12.9598L6.984 13.9678L-3.0528e-07 6.98377L6.984 -0.000227365L7.992 1.00777Z"
+                                            fill="#FFA55C" />
+                                        <path
+                                            d="M1.0083 7.70312L1.0083 6.26313L13.2483 6.26312L13.2483 7.70312L1.0083 7.70312Z"
+                                            fill="#FFA55C" />
+                                    </svg>
+
+                                </button>
+                                <div class="gallery-pagination "></div>
+                                <button class="gallery__nav-next" type="button">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.25653 12.96L11.2325 6.984L5.25654 1.008L6.26454 -3.0528e-07L13.2485 6.984L6.26454 13.968L5.25653 12.96Z"
+                                            fill="#FFA55C" />
+                                        <path
+                                            d="M12.2402 6.26465L12.2402 7.70465L0.000234839 7.70465L0.000234902 6.26465L12.2402 6.26465Z"
+                                            fill="#FFA55C" />
+                                    </svg>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slider swiper">
+                        <div class="gallery-wrapper swiper-wrapper">
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/1.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/1.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/2.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/2.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/3.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/3.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/4.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/4.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/2.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/2.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/3.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/3.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/4.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/4.jpg" alt="">
+                            </a>
+                            <a class="gallery-slide swiper-slide" href="img/content/gallery/2.jpg"
+                                data-fslightbox="gallery">
+                                <img src="img/content/gallery/2.jpg" alt="">
+                            </a>
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="main__reviews reviews" id="reviews">
+                <div class="container">
+                    <div class="reviews-inner">
+                        <div class="reviews-info">
+                            <h3 class="reviews-title heading">Обратная связь от наших учеников</h3>
+                            <p class="reviews-txt">
+                                Все наши ученики абсолютно разные, и мы к каждому из них находим
+                                индивидуальный подход. Именно поэтому все остаются довольны не только кулинарными
+                                результатами, но и атмосферой обучения в целом
+                            </p>
+                        </div>
+                        <div class="reviews-nav">
+                            <button class="reviews__nav-prev" type="button">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.992 1.00777L2.016 6.98377L7.992 12.9598L6.984 13.9678L-3.0528e-07 6.98377L6.984 -0.000227365L7.992 1.00777Z"
+                                        fill="#FFA55C" />
+                                    <path
+                                        d="M1.0083 7.70312L1.0083 6.26313L13.2483 6.26312L13.2483 7.70312L1.0083 7.70312Z"
+                                        fill="#FFA55C" />
+                                </svg>
+                            </button>
+                            <button class="reviews__nav-next" type="button">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.25653 12.96L11.2325 6.984L5.25654 1.008L6.26454 -3.0528e-07L13.2485 6.984L6.26454 13.968L5.25653 12.96Z"
+                                        fill="#FFA55C" />
+                                    <path
+                                        d="M12.2402 6.26465L12.2402 7.70465L0.000234839 7.70465L0.000234902 6.26465L12.2402 6.26465Z"
+                                        fill="#FFA55C" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="reviews-slider swiper">
+                        <div class="reviews-wrapper swiper-wrapper">
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/2.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Елизавета</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        lizzy_av
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>
+                                        Для меня действительно сбылась мечта!
+                                    </span><br>
+                                    Это были одни из лучших месяцев моей жизни. Для меня действительно сбылась мечта,
+                                    к которой я шла уже давно, но не хватало опыта и знаний. Это все дала мне ваша
+                                    школа. В рецептурах все довольно понятно разъясняется, если есть вопросы, их всегда
+                                    можно задать, что не мало важно.
+
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/3.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">игорь</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        igor_sverlovskii
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>
+                                        Здесь я узнал много чего!
+                                    </span><br>
+                                    Спасибо большое Wake & Bake за такой курс! Здесь я узнал много чего нового для меня!
+                                    Курс очень хороший, захватывает самые актуальные темы для кондитера! Мне понравилось
+                                    что всегда была поддержка не только со стороны куратора
+                                    но и таких же учеников-кондитеров как и я. Мне прям аж будет не хватать всего этого.
+
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/1.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Александра</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        akimovaa
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>Спасибо за курс!
+                                    </span><br>
+                                    Действительно понятный и доступный курс для начинающего кондитера. Для того самого,
+                                    который ничего-ничего не знал, не умел. А спустя месяц уже знает, как сделать так,
+                                    чтобы было вкусно, красиво и профессионально. А если что-то и непонятно, то всегда
+                                    можно спросить и уточнить.
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/2.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Александра</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        akimovaa
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>Спасибо за курс!
+                                    </span><br>
+                                    Действительно понятный и доступный курс для начинающего кондитера. Для того самого,
+                                    который ничего-ничего не знал, не умел. А спустя месяц уже знает, как сделать так,
+                                    чтобы было вкусно, красиво и профессионально. А если что-то и непонятно, то всегда
+                                    можно спросить и уточнить.
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/3.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">игорь</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        igor_sverlovskii
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>
+                                        Здесь я узнал много чего!
+                                    </span><br>
+                                    Спасибо большое Wake & Bake за такой курс! Здесь я узнал много чего нового для меня!
+                                    Курс очень хороший, захватывает самые актуальные темы для кондитера! Мне понравилось
+                                    что всегда была поддержка не только со стороны куратора
+                                    но и таких же учеников-кондитеров как и я. Мне прям аж будет не хватать всего этого.
+
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/1.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Александра</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        akimovaa
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>Спасибо за курс!
+                                    </span><br>
+                                    Действительно понятный и доступный курс для начинающего кондитера. Для того самого,
+                                    который ничего-ничего не знал, не умел. А спустя месяц уже знает, как сделать так,
+                                    чтобы было вкусно, красиво и профессионально. А если что-то и непонятно, то всегда
+                                    можно спросить и уточнить.
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/2.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Александра</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        akimovaa
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>Спасибо за курс!
+                                    </span><br>
+                                    Действительно понятный и доступный курс для начинающего кондитера. Для того самого,
+                                    который ничего-ничего не знал, не умел. А спустя месяц уже знает, как сделать так,
+                                    чтобы было вкусно, красиво и профессионально. А если что-то и непонятно, то всегда
+                                    можно спросить и уточнить.
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/3.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">игорь</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        igor_sverlovskii
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>
+                                        Здесь я узнал много чего!
+                                    </span><br>
+                                    Спасибо большое Wake & Bake за такой курс! Здесь я узнал много чего нового для меня!
+                                    Курс очень хороший, захватывает самые актуальные темы для кондитера! Мне понравилось
+                                    что всегда была поддержка не только со стороны куратора
+                                    но и таких же учеников-кондитеров как и я. Мне прям аж будет не хватать всего этого.
+
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/1.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Александра</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        akimovaa
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>Спасибо за курс!
+                                    </span><br>
+                                    Действительно понятный и доступный курс для начинающего кондитера. Для того самого,
+                                    который ничего-ничего не знал, не умел. А спустя месяц уже знает, как сделать так,
+                                    чтобы было вкусно, красиво и профессионально. А если что-то и непонятно, то всегда
+                                    можно спросить и уточнить.
+                                </blockquote>
+                            </div>
+                            <div class="reviews-slide swiper-slide">
+                                <div class="reviews-student">
+                                    <div class="reviews__student-img">
+                                        <img src="img/content/testimonials/2.jpg" alt="">
+                                    </div>
+                                    <div class="reviews__student-name">Александра</div>
+                                    <div class="reviews__student-inst">
+                                        <img src="img/icons/socials/inst-2.svg" alt="">
+                                        akimovaa
+                                    </div>
+
+                                </div>
+                                <blockquote class="reviews-quote">
+                                    <span>Спасибо за курс!
+                                    </span><br>
+                                    Действительно понятный и доступный курс для начинающего кондитера. Для того самого,
+                                    который ничего-ничего не знал, не умел. А спустя месяц уже знает, как сделать так,
+                                    чтобы было вкусно, красиво и профессионально. А если что-то и непонятно, то всегда
+                                    можно спросить и уточнить.
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="reviews-scrollbar swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact " id="contact">
+                <div class="container">
+                    <div class="contact-inner">
+                        <div class="contact-img">
+                            <img src="img/decor/cake-2.png" alt="">
+                        </div>
+                        <div class="contact-body">
+                            <h2 class="contact-tittle heading">Оставить заявку на обучение</h2>
+                            <p class="contact-txt">Заполни контактные данные,и наш менеджер<br>  свяжется с тобой в
+                                ближайшее время</p>
+                            <form class="contact-main">
+                                <label class="contact__form-label ">
+                                    <input type="text" class="contact__form-imput field-input" placeholder="Имя">
+                                    <span>Введите имя</span>
+                                </label>
+                                <label class="contact__form-label">
+                                    <input type="tel" class=" contact__form-imput-2 field-input" placeholder="Телефон">
+                                </label>
+                                <label class="contact__form-label-checkbox">
+                                    <input type="checkbox" class="contact-checkbox"> 
+                                    <span>
+                                        Нажимая на кнопку,вы соглашаетесь <a href="#" target="_blank">с политикой конфиденциальности</a>
+                                    </span>
+                                 
+                                   
+                                </label>
+                                <button class="contact__form-btn button" type="submit">Записаться на курс</button>
+                            </form>
+
                         </div>
                     </div>
                 </div>
@@ -742,7 +1099,7 @@
             <div class="container">
                 <div class="footer-inner">
                     <div class="footer-col">
-                        <a href="#" class="footer__logo">
+                        <a href="/" class="footer__logo">
                             <img src="./img/icons/logos/logo-light.svg" alt="">
                         </a>
                         <p class="footer-p">
@@ -796,13 +1153,13 @@
                     <div class="footer-col">
                         <ul class="footer__col-list">
                             <li class="footer__col-item">
-                                <a href="#" class="footer__col-link">Программа обучения</a>
+                                <a href="#program" class="footer__col-link">Программа обучения</a>
                             </li>
                             <li class="footer__col-item">
-                                <a href="#" class="footer__col-link">Галерея</a>
+                                <a href="#gallery" class="footer__col-link">Галерея</a>
                             </li>
                             <li class="footer__col-item">
-                                <a href="#" class="footer__col-link">Отзывы </a>
+                                <a href="#reviews" class="footer__col-link">Отзывы </a>
                             </li>
                         </ul>
                     </div>
@@ -873,7 +1230,7 @@
                 <button type="submit" class="modal__form-submit button">Получить подарок</button>
                 <label class="modal__form-label field">
                     <input type="email" class="modal__form-imput field-input" placeholder="E-mail">
-                    <span>Введите e-mail</span>
+                    <span>Введите e-mail</span> 
                 </label>
 
             </form>
@@ -881,9 +1238,11 @@
 
         </div>
     </div>
-    <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+
     <script src="js/fslightbox.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    
     <script src="js/main.js"></script>
 </body>
 

@@ -58,37 +58,7 @@ function toggleTab(e){
     tabControl.classList.add('tabs__control-link--active')}
 
  /*=====================accardion=================================================*/
-
-//  const accordionLists = document.querySelectorAll('.accordion-list')    
-//  accordionLists.forEach(el => {
-//      el.addEventListener('click', (e) => {
-
-//          const accordionList = e.currentTarget
-//          const accordionOpenedItem = accordionList.querySelector('.accordion-list__item--opened')
-//          const accordionOpenedContent = accordionList.querySelector('.accordion-list__item--opened')
-
-//          const accordionControl = e.target.closest('.accordion-list__control')  
-
-//          if (!accordionControl) return         
-//          const accordionItem = accordionControl.parentElement
-//          const accordionContent = accordionControl.nextElementSibling
-
-//          if(accordionOpenedItem && accordionItem != accordionOpenedItem){
-//              accordionOpenedItem.classlist.remove('accordion-list__item--opened')
-//              accordionOpenedContent.style.maxHeight = null;                                                                                                                             ')
-//          }
-//          accordionItem.classList.toggle('accordion-list__item--opened')
-       
-//          if (accordionItem.classList.contains('accordion-list__item--opened')) {   
-//             accordionContent.style.maxHeight = accordionContent.scrollHeight +'px'
-//         } else {
-//             accordionContent.style.maxHeight = null
-//         }
-//      });
-//  });
-   
 const accordionLists = document.querySelectorAll('.accordion-list');
-
 accordionLists.forEach(el => {
 
     el.addEventListener('click', (e) => {
@@ -99,6 +69,7 @@ accordionLists.forEach(el => {
 
         const accordionControl = e.target.closest('.accordion-list__control');
         if (!accordionControl) return
+        e.preventDefault()
         const accordionItem = accordionControl.parentElement;
         const accordionContent = accordionControl.nextElementSibling;
 
@@ -119,7 +90,74 @@ accordionLists.forEach(el => {
 });
 
 
+//swiperrrrrrrrrrrrrrrrr    
+new Swiper('.gallery-slider ', {
 
+
+    pagination: {
+      el: '.gallery-pagination',
+      type: 'fraction'
+    },
+    navigation: {
+      nextEl: '.gallery__nav-next',
+      prevEl: '.gallery__nav-prev',
+    },
+    spaceBetween:15,
+    slidesPerView: 1,
+
+        breakpoints: {
+            451:{
+                slidesPerView: 2,
+            },
+            601:{
+                slidesPerView: 3,
+            },
+          801:{
+             spaceBetween:32,
+            
+          },
+          1101: {
+            slidesPerView: 4,
+            
+          },
+          
+        }
+     
+    
+});
+//swiperrrrrrrrrrrrrrrrr    
+ new Swiper('.reviews-slider', {
+        
+        spaceBetween:66,
+        slidesPerView: 1,
+    
+       
+        navigation: {
+          nextEl: '.reviews__nav-next',
+          prevEl: '.reviews__nav-prev',
+        },
+    
+        centeredSlides: true,
+        scrollbar: {
+          el: '.reviews-scrollbar',
+            
+        },
+        breakpoints: {
+            
+          901: {
+            slidesPerView: 1.5,
+            
+          },
+          1201: {
+            slidesPerView: 2.1,
+            
+          },
+          
+        }
+      });
+      const inputs = document.querySelectorAll('input[type="tel"]')
+      const im = new Inputmask('+7 (999) 999-99-99')
+      im.mask(inputs)
 
 
 

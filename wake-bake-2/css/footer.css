@@ -3,7 +3,7 @@
 /*=======================================================*/
 
 .footer {
-    margin-top: 300px;
+   
     background: #AB8261;
     min-height: 253px;
     padding: 60px 0 60px;
@@ -26,6 +26,7 @@
 .footer__logo {
     display: block;
     max-width: 241px;
+   
 }
 
 /*-----*/

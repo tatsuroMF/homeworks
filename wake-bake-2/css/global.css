@@ -2,13 +2,18 @@
     --general-text: #312c27;
     --general-bg: #fff9f4;
     --accent-color: #ffa55c;
+    --accent-color2:#ceaad0;
     --fonovyy: #ffe0cb;
     --heading: #1f1711;
     --border-radius: 20px;
     --transition: all .4s;
+    --second-family: "Gabriola", sans-serif;
 }
 
-
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
 
 .wrapper {
     overflow: hidden;
@@ -61,7 +66,9 @@
 .main__program {
     padding-bottom: 145px;
 }
-
+.main__gallery {
+    padding-bottom: 140px;
+}
 
 .button:hover {
     background: #ff9138;
