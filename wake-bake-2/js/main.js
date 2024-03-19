@@ -3,13 +3,21 @@ let btn = document.querySelector('.burger-menu')
 const link = document.querySelector('.header__nav-ul')
 
 btn.addEventListener('click',e => {
-    e.preventDefault(); 
+  if (window.innerWidth <= 900) {
+  e.preventDefault(); 
     body.classList.toggle('body--opened-menu')
+  }
 })
 
+
 link.addEventListener('click', e => {
-    e.preventDefault(); 
-    body.classList.remove('body--opened-menu')
+  if (window.innerWidth <= 900) {
+    e.preventDefault();
+    if (e.target.tagName === 'A') {
+      body.classList.remove('body--opened-menu');
+      
+    }
+  }
 })
 
 /*=====================MODAL=================================================*/
