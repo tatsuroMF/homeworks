@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'CeraPro';
+    src: local('CeraPro Regular'), local('Cerapro-Regular'),
+        url('../fonts/CeraPro-Regular.eot') format('eot'),
+        url('../fonts/CeraPro-Regular.woff2') format('woff2'),
+        url('../fonts/CeraPro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CeraPro';
+    src: local('CeraPro Medium'), local('Cerapro-Medium'),
+        url('../fonts/CeraPro-Medium.eot') format('eot'),
+        url('../fonts/CeraPro-Medium.woff2') format('woff2'),
+        url('../fonts/CeraPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CeraPro';
+    src: local('CeraPro bold'), local('Cerapro-Regular'),
+        url('../fonts/CeraPro-Bold.eot') format('eot'),
+        url('../fonts/CeraPro-Bold.woff2') format('woff2'),
+        url('../fonts/CeraPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CeraPro';
+    src: local('CeraPro black'), local('Cerapro-Regular'),
+        url('../fonts/CeraPro-black.eot') format('eot'),
+        url('../fonts/CeraPro-black.woff2') format('woff2'),
+        url('../fonts/CeraPro-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Hanging-Letters';
+    src: local('Hanging-Letters'),
+        url('../fonts/Hanging-Letters.woff2') format('woff2'),
+        url('../fonts/Hanging-Letters.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
