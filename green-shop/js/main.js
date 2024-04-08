@@ -174,7 +174,8 @@ const confirmPasswordInput = document.querySelector('.confirmPassword');
 const confirmBtn = document.querySelector('.modal__form-btn--reg');
 const message = document.querySelector('.modal__form-check');
 
-confirmBtn.addEventListener('click', () => {
+confirmBtn.addEventListener('click', (e) => {
+  e.preventDefault(); 
   if (passwordInput.value.length > 0) {
     if (passwordInput.value === confirmPasswordInput.value) {
       // Пароли совпадают, можешь выполнить дополнительные действия
