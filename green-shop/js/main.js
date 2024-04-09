@@ -61,12 +61,12 @@ elems.forEach((elem) => {
   const iso = new Isotope(elem, {
     itemSelector: '.tab__content-item',
     layoutMode: 'fitRows',
-    // getSortData: {
-    //   price: function (element) {
-    //     let price = element.querySelector('.price').textContent;
-    //     return parseFloat(price.replace('$', ''));
-    //   }
-    // }
+    getSortData: {
+      price: function (itemElem) {
+        let price = itemElem.querySelector('.price').textContent;
+        return parseFloat(price.replace('$', ''));
+      }
+    }
   });
   const sortButtons = document.querySelectorAll('.tab__sort-button');
   sortButtons.forEach(button => {
